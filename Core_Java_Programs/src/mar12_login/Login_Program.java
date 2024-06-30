@@ -17,7 +17,7 @@ public class Login_Program {
 		driver.findElement(By.name("txtPword")).sendKeys("Admin");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 	}
 
 }
